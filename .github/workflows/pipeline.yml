@@ -6,7 +6,6 @@ jobs:
     concurrency:
       group: ${{ github.ref }}
       cancel-in-progress: true
-#
 #    uses: openmfp/gha/.github/workflows/pipeline-golang-app.yml@main
     uses: ignatov17/gha/.github/workflows/pipeline-kube-linter-app.yml@main
 #    secrets: inherit
